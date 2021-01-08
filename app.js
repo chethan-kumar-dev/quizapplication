@@ -39,6 +39,7 @@
         sd.style.width="300px" ;
         sd.style.height="340px";
         sd.style.transitionProperty="width,height";
+        sd.style.overflow="hidden";
         scoredisplay.innerHTML=counter;
         setTimeout(() => {
             document.getElementById('answer').innerHTML="";
